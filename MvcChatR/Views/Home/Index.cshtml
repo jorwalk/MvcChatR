@@ -1,9 +1,21 @@
 ﻿@{
     ViewBag.Title = "Start";
 }
+<article class="container">
+    <header class="row">
+        <p class="lead">Home Index</p>
+    </header>
+    <section class="row">
+        <aside class="col-md-4">
+            <h3>SignalR</h3>
+            <a href="@Url.Action("Chat","Home")">Chat</a>
+            <h3>D3.js</h3>
+            <a href="@Url.Action("MultiSeriesLineChart","Home")">Multi-Series Line Chart</a>
+        </aside>
+        <div class="col-md-8">
+           
+        </div>
+    </section>
+    
+</article>
 
-<h2>Start</h2>
-<h3>SignalR</h3>
-<a href="@Url.Action("Chat","Home")">Chat</a>
-<br/>
-<a href="@Url.Action("MultiSeriesLineChart","Home")">Multi-Series Line Chart</a>
